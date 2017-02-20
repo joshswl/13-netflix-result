@@ -1,0 +1,27 @@
+
+.planet {
+  display: flex;
+
+  &__name {
+    margin: 0;
+    width: 100%;
+  }
+
+  &__submit {
+    background: #5576DF;
+    color: white;
+    font-size: 15px;
+    padding: 0.5rem;
+  }
+}
+
+.results {
+
+}
+
+.result-item {
+
+  &__name {
+
+  }
+}
