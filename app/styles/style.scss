@@ -1,3 +1,12 @@
+.section {
+  padding: 10rem;
+  background: black;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
 
 .planet {
   display: flex;
@@ -18,12 +27,11 @@
 
 .results {
   background: #E3E3E3;
+  padding: 2rem;
 
   &__top {
-    padding: 2rem;
     display: flex;
-    flex-wrap: wrap;
-    background: blue;
+    justify-content: space-between;
   }
 }
 
