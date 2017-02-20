@@ -12,16 +12,38 @@
     color: white;
     font-size: 15px;
     padding: 0.5rem;
+    border: none;
   }
 }
 
 .results {
+  background: #E3E3E3;
 
+  &__top {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: blue;
+  }
 }
 
 .result-item {
 
-  &__name {
+  &__title {
 
+  }
+
+  &__rating {
+    display: flex;
+
+    &--number {
+      margin: 0;
+      padding-right: 0.2rem;
+      font-weight: bold;
+    }
+
+    &--icon {
+
+    }
   }
 }
